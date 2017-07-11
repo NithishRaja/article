@@ -1,5 +1,6 @@
 import React from 'react';
 import ArticlePreview from './article-preview';
+import jQuery from 'jquery';
 
 export default class ArticleList extends React.Component{
 
@@ -7,28 +8,12 @@ export default class ArticleList extends React.Component{
     super();
 
     this.state = {
-      articles:[
-        {
-          id:1,
-          name:'no rings for the raptors',
-          body:'no rings for the raptors as long as they are based in canada',
-          writtenBy:'nithishraja@ymail.com'
-        },
-        {
-          id:2,
-          name:'lakers are the best',
-          body:'cause KOBE',
-          writtenBy:'nithishraja@ymail.com'
-        },
-        {
-          id:3,
-          name:'dear basketball',
-          body:'81',
-          writtenBy:'kobe bryant'
-        }
-      ]
-    }
+      articles:[]
+    };
+  }
 
+  componentWillMount(){
+    this._getArticles();
   }
 
   render(){
@@ -36,9 +21,10 @@ export default class ArticleList extends React.Component{
     let _articleListJSX = <div>
                             {this.state.articles.map(article=>
                               <ArticlePreview
-                                name={article.name}
-                                body={article.body}
-                                writtenBy={article.writtenBy}
+                                {...article}
+                                //name={article.name}
+                                //body={article.body}
+                                //writtenBy={article.writtenBy}
                                 key={article.id}/>
                               )}
                           </div>
@@ -48,4 +34,22 @@ export default class ArticleList extends React.Component{
     );
   }
 
+  _getArticles(){
+    let articles;
+
+      jQuery.ajax({
+        method:'GET',
+        url:'./assets/data/article-info.json',
+        success:(data)=>{
+          articles = data;
+          this.setState({
+            articles
+          });
+        },
+        error:(data, error)=>{
+          alert(error);
+          alert(data);
+        }
+      });
+  }
 }
