@@ -1,11 +1,13 @@
 import React from 'react';
 import ArticlePreview from './article-preview';
-import jQuery from 'jquery';
+import ArticleInfo from './article-info';
 
 export default class ArticleList extends React.Component{
 
   constructor(){
     super();
+
+    this.articleInfo = new ArticleInfo();
 
     this.state = {
       articles:[]
@@ -13,7 +15,17 @@ export default class ArticleList extends React.Component{
   }
 
   componentWillMount(){
-    this._getArticles();
+    this.articleInfo._getArticles((articles, error)=>{
+      if(!error){
+        this.setState({
+          articles
+        });
+      }else{
+        alert(articles);
+        alert(error);
+      }
+    });
+
   }
 
   render(){
@@ -32,24 +44,5 @@ export default class ArticleList extends React.Component{
     return(
       <div>{_articleListJSX}</div>
     );
-  }
-
-  _getArticles(){
-    let articles;
-
-      jQuery.ajax({
-        method:'GET',
-        url:'./assets/data/article-info.json',
-        success:(data)=>{
-          articles = data;
-          this.setState({
-            articles
-          });
-        },
-        error:(data, error)=>{
-          alert(error);
-          alert(data);
-        }
-      });
   }
 }
