@@ -1,11 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import CommentBox from './components/comment-box';
+import ArticleList from './article/article-list';
 
-// Render when document is ready
-document.addEventListener('DOMContentLoaded', function() {
-  ReactDOM.render(
-    <CommentBox />,
-    document.getElementById('comment-box')
-  );
-});
+const app = document.getElementById('my-app');
+
+ReactDOM.render(<ArticleList />,app);
