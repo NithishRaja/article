@@ -1,4 +1,5 @@
 import React from 'react';
+import ArticlePreview from './article-preview';
 
 export default class ArticleList extends React.Component{
 
@@ -8,16 +9,19 @@ export default class ArticleList extends React.Component{
     this.state = {
       articles:[
         {
+          id:1,
           name:'no rings for the raptors',
           body:'no rings for the raptors as long as they are based in canada',
           writtenBy:'nithishraja@ymail.com'
         },
         {
+          id:2,
           name:'lakers are the best',
           body:'cause KOBE',
           writtenBy:'nithishraja@ymail.com'
         },
         {
+          id:3,
           name:'dear basketball',
           body:'81',
           writtenBy:'kobe bryant'
@@ -31,15 +35,12 @@ export default class ArticleList extends React.Component{
 
     let _articleListJSX = <div>
                             {this.state.articles.map(article=>
-                              <div>
-                                <label>{article.name}</label>
-                                <br />
-                                <label>{article.body}</label>
-                                <br />
-                                <label>{article.writtenBy}</label>
-                                <br />
-                                <br />
-                              </div>)}
+                              <ArticlePreview
+                                name={article.name}
+                                body={article.body}
+                                writtenBy={article.writtenBy}
+                                key={article.id}/>
+                              )}
                           </div>
 
     return(
