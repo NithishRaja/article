@@ -17,6 +17,8 @@ const _app = document.getElementById('my-app');
 ReactDOM.render(_reactJSX,_app);
 
 /*
-implement routers
-add onClick listener to article-preview to view article in full detail
+add more styling to Article
+add comments engine
+add a nav bar
+figure out github pages
 */

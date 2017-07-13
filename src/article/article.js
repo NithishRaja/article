@@ -47,10 +47,10 @@ export default class Article extends React.Component{
                                                       <h2 key={`heading ${b.paraNumber}`}>{b.heading}</h2>
                                                       <p className="text-justify" key={`para ${b.paraNumber}`}>{b.content}</p>
                                                     </div>);
-    const _authorJSX = <div className="col-md-offset-1 col-md-3">
-                        <h3>About the author</h3>
+    const _authorJSX = <div className="col-md-4">
                         <div className="thumbnail">
-                          <img src={this.state.article.author.image} alt={this.state.article.author.name} />
+                          <h3 className="text-center">About the author</h3>
+                          <img className="img-circle" src={this.state.article.author.image} alt={this.state.article.author.name} />
                           <div className="caption">
                             {this.state.article.author.bio}
                           </div>
