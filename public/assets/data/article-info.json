@@ -16,7 +16,13 @@
         "content":"You can click the links below to jump to a particular section or simply scroll down to read everything. At the end of this page, you'll find a complete list of all the articles I have written on motivation."
       }
     ],
-    "authorName":"James Clear"
+    "writtenOn":"Thu Jul 13 2017 22:29:43 GMT+0530 (India Standard Time)",
+    "author":{
+      "name":"James Clear",
+      "bio":"Hi there, I'm James Clear. I'm an American author, entrepreneur, and photographer. I'm also the guy behind JamesClear.com (naturally).",
+      "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbcE6_ZpU8wPPUde2kGhMIKcC0NFlfvJ_AV7rI5ajzsri53ebcJw",
+      "site":"http://jamesclear.com/"
+    }
   },
   {
     "id":2,
@@ -48,7 +54,13 @@
         "content":"Life is busy, it’s chaotic, and so you tend to want to focus on the future—we all do it, worry about what’s next. But while planning is important, so is living—being fully present. Life is short, and there’s no guarantee as to when it will end. Successful people live each day as if it were their last and make the most out of each moment—and so should you. When you look at a big goal, it’s common to get frustrated at the enormity of what you’re trying to accomplish. If you wake up each day determined to spend it forming good habits, you give yourself a better chance at success. So use these five habits as a starting place to build whatever a successful life means to you."
       }
     ],
-    "authorName":"Kimanzi Constable"
+    "writtenOn":"Thu Jul 13 2017 22:29:43 GMT+0530 (India Standard Time)",
+    "author":{
+      "name":"Kimanzi Constable",
+      "bio":"Hi, I'm Kimanzi :) In the last six years, my books have sold over 100,000 copies. I have spoken at conferences and companies in 38 countries. You can see my articles in the largest websites in the world and I have helped thousands of people build their dream lifestyle business.",
+      "image":"https://i1.wp.com/kconstable.com/wp-content/uploads/2016/09/unnamed-2-1.jpg?w=588",
+      "site":"http://kconstable.com/"
+    }
   },
   {
     "id":3,
@@ -56,7 +68,6 @@
     "body":[
       {
         "paraNumber":"31",
-        "heading":"first para",
         "content":"Sometimes they’ll keep the clothing, the strips of shirt or trousers that weren’t cut away and discarded by the doctors and nurses. They’ll tell and retell their story at family gatherings and online, sharing pictures and news reports of survivals like their own, or far bigger tragedies. The video of a tourist hit on a Brazilian beach, or the Texan struck dead while out running. The 65 people killed during four stormy days in Bangladesh."
       },
       {
@@ -65,10 +76,15 @@
       },
       {
         "paraNumber":"33",
-        "heading":"last para",
         "content":"In this way, Jaime Santana’s family have stitched together some of what happened one afternoon in April 2016, through his injuries, burnt clothing and, most of all, his shredded broad-brimmed straw hat. “It looks like somebody threw a cannonball through it,” says Sydney Vail, a trauma surgeon in Phoenix, Arizona, who helped care for Jaime after he arrived by ambulance. His heart had been shocked several times along the way as paramedics struggled to stabilise its rhythm."
       }
     ],
-    "authorName":"Charlotte Huff"
+    "writtenOn":"Thu Jul 13 2017 22:29:43 GMT+0530 (India Standard Time)",
+    "author":{
+      "name":"Charlotte Huff",
+      "bio":"I've been a journalist since the early 1990s, starting my career as a metro newspaper reporter at several dailies, including the Las Vegas Review-Journal and the Fort Worth Star-Telegram. These days I primarily write for magazines and online publications about health and business, although I do enjoy straying into related areas—science, psychology and human-interest stories.",
+      "image":"https://pbs.twimg.com/profile_images/672149060606926848/sK5HkkgS.jpg",
+      "site":"http://charlottehuff.com/about"
+    }
   }
 ]

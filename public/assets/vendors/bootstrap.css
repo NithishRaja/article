@@ -1097,14 +1097,17 @@ textarea {
   line-height: inherit;
 }
 a {
-  color: #337ab7;
+  /*
+    original color is #337ab7
+  */
+  color: #000;
   text-decoration: none;
 }
-a:hover,
+/*a:hover,
 a:focus {
   color: #23527c;
   text-decoration: underline;
-}
+}*/
 a:focus {
   outline: 5px auto -webkit-focus-ring-color;
   outline-offset: -2px;
@@ -5271,7 +5274,6 @@ button.list-group-item .list-group-item-heading {
   color: #333;
 }
 a.list-group-item:hover,
-button.list-group-item:hover,
 a.list-group-item:focus,
 button.list-group-item:focus {
   color: #555;
