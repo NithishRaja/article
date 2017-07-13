@@ -8,7 +8,7 @@ const _reactJSX = <Router>
                     <Redirect from="/" to="/mainpage" />
                     <Route path="/">
                       <Route path="mainpage" component={ArticleList} />
-                      <Route path="article/:articleID" component={Article} />
+                      <Route path=":author/:articleID" component={Article} />
                      </Route>
                   </Router>
 

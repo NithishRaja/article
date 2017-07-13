@@ -2,49 +2,72 @@
   {
     "id":1,
     "title":"Motivation: The Scientific Guide on How to Get and Stay Motivated",
-    "headings":[
-      "",
-      "",
-      ""
-    ],
     "body":[
-      "Motivation is a powerful, yet tricky beast. Sometimes it is really easy to get motivated, and you find yourself wrapped up in a whirlwind of excitement. Other times, it is nearly impossible to figure out how to motivate yourself and you're trapped in a death spiral of procrastination. This page contains the best ideas and most useful research on how to get and stay motivated.",
-      "This isn't going to be some rah-rah, pumped-up motivational speech. (That's not my style.) Instead, we're going to break down the science behind how to get motivated in the first place and how to stay motivated for the long-run. Whether you're trying to figure out how to motivate yourself or how to motivate a team, this page should cover everything you need to know.",
-      "You can click the links below to jump to a particular section or simply scroll down to read everything. At the end of this page, you'll find a complete list of all the articles I have written on motivation."
+      {
+        "paraNumber":"11",
+        "content":"Motivation is a powerful, yet tricky beast. Sometimes it is really easy to get motivated, and you find yourself wrapped up in a whirlwind of excitement. Other times, it is nearly impossible to figure out how to motivate yourself and you're trapped in a death spiral of procrastination. This page contains the best ideas and most useful research on how to get and stay motivated."
+      },
+      {
+        "paraNumber":"12",
+        "content":"This isn't going to be some rah-rah, pumped-up motivational speech. (That's not my style.) Instead, we're going to break down the science behind how to get motivated in the first place and how to stay motivated for the long-run. Whether you're trying to figure out how to motivate yourself or how to motivate a team, this page should cover everything you need to know."
+      },
+      {
+        "paraNumber":"13",
+        "content":"You can click the links below to jump to a particular section or simply scroll down to read everything. At the end of this page, you'll find a complete list of all the articles I have written on motivation."
+      }
     ],
     "authorName":"James Clear"
   },
   {
     "id":2,
     "title":"5 Daily Habits of Highly Successful People",
-    "headings":[
-      "1. Successful people plan out their day the night before.",
-      "2. Successful people read books to get inspired.",
-      "3. Successful people make their health a priority.",
-      "4. Successful people don’t get distracted by what other people are doing.",
-      "5. Successful people live each day as if it were the last."
-    ],
     "body":[
-      "It’s easy to get off track when you don’t have a plan. Without planning what your day will look like, you wake up not knowing what you want to do or accomplish. Successful people spend a little time the night before giving themselves clear goals for the next day. Then they wake up and go down their list. Life doesn’t always work out as planned, but with a plan, you can adjust without losing momentum.",
-      "Reading is an essential element in success—books contain so much knowledge. Apparently Elon Musk would read at least four hours a day growing up. Four hours. And look how successful he became. There isn’t necessarily a defined length as to how much time you should be reading, but forming a daily reading habit will expand your knowledge and help you on your journey to success.",
-      "What you eat and how much you exercise affects every area of your life. Successful people use their exercise as a time to reset and plan. And they make smart food choices that will give them the energy they need to accomplish everything on their daily to-do list. So, what’s for dinner? Is the gym on your to-do list? Choose wisely.",
-      "Other people’s journeys to success can be inspiring; you can learn so much—about their mistakes, their victories, what to do, what not to do. But if you start comparing your progress to theirs, instead of using their stories as inspiration, you can feel jealous, stressed, unworthy. Successful people realize their journey is unique and can’t be compared. So don’t get stuck in the comparison trap—stay focused on your why.",
-      "Life is busy, it’s chaotic, and so you tend to want to focus on the future—we all do it, worry about what’s next. But while planning is important, so is living—being fully present. Life is short, and there’s no guarantee as to when it will end. Successful people live each day as if it were their last and make the most out of each moment—and so should you. When you look at a big goal, it’s common to get frustrated at the enormity of what you’re trying to accomplish. If you wake up each day determined to spend it forming good habits, you give yourself a better chance at success. So use these five habits as a starting place to build whatever a successful life means to you."
+      {
+        "paraNumber":"21",
+        "heading":"1. Successful people plan out their day the night before.",
+        "content":"It’s easy to get off track when you don’t have a plan. Without planning what your day will look like, you wake up not knowing what you want to do or accomplish. Successful people spend a little time the night before giving themselves clear goals for the next day. Then they wake up and go down their list. Life doesn’t always work out as planned, but with a plan, you can adjust without losing momentum."
+      },
+      {
+        "paraNumber":"22",
+        "heading":"2. Successful people read books to get inspired.",
+        "content":"Reading is an essential element in success—books contain so much knowledge. Apparently Elon Musk would read at least four hours a day growing up. Four hours. And look how successful he became. There isn’t necessarily a defined length as to how much time you should be reading, but forming a daily reading habit will expand your knowledge and help you on your journey to success."
+      },
+      {
+        "paraNumber":"23",
+        "heading":"3. Successful people make their health a priority.",
+        "content":"What you eat and how much you exercise affects every area of your life. Successful people use their exercise as a time to reset and plan. And they make smart food choices that will give them the energy they need to accomplish everything on their daily to-do list. So, what’s for dinner? Is the gym on your to-do list? Choose wisely."
+      },
+      {
+        "paraNumber":"24",
+        "heading":"4. Successful people don’t get distracted by what other people are doing.",
+        "content":"Other people’s journeys to success can be inspiring; you can learn so much—about their mistakes, their victories, what to do, what not to do. But if you start comparing your progress to theirs, instead of using their stories as inspiration, you can feel jealous, stressed, unworthy. Successful people realize their journey is unique and can’t be compared. So don’t get stuck in the comparison trap—stay focused on your why."
+      },
+      {
+        "paraNumber":"25",
+        "heading":"5. Successful people live each day as if it were the last.",
+        "content":"Life is busy, it’s chaotic, and so you tend to want to focus on the future—we all do it, worry about what’s next. But while planning is important, so is living—being fully present. Life is short, and there’s no guarantee as to when it will end. Successful people live each day as if it were their last and make the most out of each moment—and so should you. When you look at a big goal, it’s common to get frustrated at the enormity of what you’re trying to accomplish. If you wake up each day determined to spend it forming good habits, you give yourself a better chance at success. So use these five habits as a starting place to build whatever a successful life means to you."
+      }
     ],
     "authorName":"Kimanzi Constable"
   },
   {
     "id":3,
     "title":"What it’s like to be struck by lightning",
-    "headings":[
-      "",
-      "",
-      ""
-    ],
     "body":[
-      "Sometimes they’ll keep the clothing, the strips of shirt or trousers that weren’t cut away and discarded by the doctors and nurses. They’ll tell and retell their story at family gatherings and online, sharing pictures and news reports of survivals like their own, or far bigger tragedies. The video of a tourist hit on a Brazilian beach, or the Texan struck dead while out running. The 65 people killed during four stormy days in Bangladesh.",
-      "Only by piecing together the bystander reports, the singed clothing and the burnt skin can survivors start to construct their own picture of the possible trajectory of the electrical current, one that can approach 200m volts and travel at one-third of the speed of light.",
-      "In this way, Jaime Santana’s family have stitched together some of what happened one afternoon in April 2016, through his injuries, burnt clothing and, most of all, his shredded broad-brimmed straw hat. “It looks like somebody threw a cannonball through it,” says Sydney Vail, a trauma surgeon in Phoenix, Arizona, who helped care for Jaime after he arrived by ambulance. His heart had been shocked several times along the way as paramedics struggled to stabilise its rhythm."
+      {
+        "paraNumber":"31",
+        "heading":"first para",
+        "content":"Sometimes they’ll keep the clothing, the strips of shirt or trousers that weren’t cut away and discarded by the doctors and nurses. They’ll tell and retell their story at family gatherings and online, sharing pictures and news reports of survivals like their own, or far bigger tragedies. The video of a tourist hit on a Brazilian beach, or the Texan struck dead while out running. The 65 people killed during four stormy days in Bangladesh."
+      },
+      {
+        "paraNumber":"32",
+        "content":"Only by piecing together the bystander reports, the singed clothing and the burnt skin can survivors start to construct their own picture of the possible trajectory of the electrical current, one that can approach 200m volts and travel at one-third of the speed of light."
+      },
+      {
+        "paraNumber":"33",
+        "heading":"last para",
+        "content":"In this way, Jaime Santana’s family have stitched together some of what happened one afternoon in April 2016, through his injuries, burnt clothing and, most of all, his shredded broad-brimmed straw hat. “It looks like somebody threw a cannonball through it,” says Sydney Vail, a trauma surgeon in Phoenix, Arizona, who helped care for Jaime after he arrived by ambulance. His heart had been shocked several times along the way as paramedics struggled to stabilise its rhythm."
+      }
     ],
     "authorName":"Charlotte Huff"
   }

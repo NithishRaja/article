@@ -9,7 +9,17 @@ export default class Article extends React.Component{
     this.articleList = new ArticleInfo();
 
     this.state = {
-      article:{}
+      article:{
+        id:-2,
+        title:"test",
+        body:[
+          {
+            heading:"test heading",
+            content:"this is a tesst"
+          }
+      ],
+        authorName:"tester"
+      }
     }
   }
 
@@ -28,7 +38,14 @@ export default class Article extends React.Component{
   }
 
   render(){
-    return <div>{this.state.article.title}</div>
-  }
+    let _articleJSX = this.state.article.body.map(b=><div key={b.paraNumber}>
+                                                  <h2 key={`heading ${b.paraNumber}`}>{b.heading}</h2>
+                                                  <p key={`para ${b.paraNumber}`}>{b.content}</p>
+                                                </div>);
 
+    return <div>
+            <h1>{this.state.article.title}</h1>
+            {_articleJSX}
+          </div>
+  }
 }
