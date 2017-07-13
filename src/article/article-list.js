@@ -20,14 +20,14 @@ export default class ArticleList extends React.Component{
   componentWillMount lifecycle method is used to update state.articles
 */
   componentWillMount(){
-    this.articleInfo._getArticles((articles, error)=>{
-      if(!error){
+    this.articleInfo._getArticles(null, (articles, error)=>{
+      if(error){
+        alert(JSON.stringify(articles));
+        alert(error);
+      }else{
         this.setState({
           articles
         });
-      }else{
-        alert(JSON.stringify(articles));
-        alert(error);
       }
     });
 

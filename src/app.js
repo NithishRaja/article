@@ -1,10 +1,20 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import ArticleList from './article/article-list';
+import Article from './article/article';
+import {Router, Route, Redirect} from 'react-router';
 
-const app = document.getElementById('my-app');
+const _reactJSX = <Router>
+                    <Redirect from="/" to="/mainpage" />
+                    <Route path="/">
+                      <Route path="mainpage" component={ArticleList} />
+                      <Route path="article/:articleID" component={Article} />
+                     </Route>
+                  </Router>
 
-ReactDOM.render(<ArticleList />,app);
+const _app = document.getElementById('my-app');
+
+ReactDOM.render(_reactJSX,_app);
 
 /*
 implement routers
