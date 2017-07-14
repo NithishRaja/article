@@ -6,12 +6,6 @@ export default class Article extends React.Component{
 
 /*
   constructor to create instance of ArticleInfo
-  Note:
-    this.state.article is provided with dummy values because
-    render() is called before callBack of _getArticles() in
-    componentWillMount() is completed. hence, without the dummy
-    values the this.state.articles.map function in render()
-    will error out
 */
   constructor(){
     super();
@@ -19,22 +13,7 @@ export default class Article extends React.Component{
     this.articleList = new ArticleInfo();
 
     this.state = {
-      article:{
-        id:-2,
-        title:"test",
-        body:[
-          {
-            heading:"test heading",
-            content:"this is a tesst"
-          }
-      ],
-        author:{
-          name:"tester",
-          bio:"i am a tester",
-          image:"",
-          site:""
-        }
-      }
+      article:{}
     }
   }
 
@@ -43,12 +22,11 @@ export default class Article extends React.Component{
   via ajax request
 */
   componentWillMount(){
-    this.articleList._getArticles(this.props.params.articleID,(singleArticle, error)=>{
+    this.articleList._getArticles(this.props.params.articleID,(article, error)=>{
       if(error){
-        alert(JSON.stringify(singleArticle));
+        alert(JSON.stringify(article));
         alert(error);
       }else{
-        const article = singleArticle[0];
         this.setState({
           article
         });
@@ -60,31 +38,38 @@ export default class Article extends React.Component{
   renders the article page
 */
   render(){
-    let _articleJSX = this.state.article.body.map(b=><div>
-                                                      <h2 key={`heading ${b.paraNumber}`}>{b.heading}</h2>
-                                                      <p className="text-justify" key={`para ${b.paraNumber}`}>{b.content}</p>
-                                                    </div>);
-    const _authorJSX = <div className="col-md-4">
-                        <div className="thumbnail">
-                          <h3 className="text-center">About the author</h3>
-                          <img className="img-circle" src={this.state.article.author.image} alt={this.state.article.author.name} />
-                          <div className="caption">
-                            {this.state.article.author.bio}
+
+    if(this.state.article.body){
+      var _headingJSX = <header>
+                      <h1 className="page-header col-md-12">{this.state.article.title}</h1>
+                      <div className="col-md-12">written by - <strong>{this.state.article.author.name}</strong></div>
+                      <div className="col-md-12">written on - {this.state.article.writtenOn}</div>
+
+                    </header>;
+
+      var _articleJSX = this.state.article.body.map(b=><div>
+                                                        <h2 key={`heading ${b.paraNumber}`}>{b.heading}</h2>
+                                                        <p className="text-justify" key={`para ${b.paraNumber}`}>{b.content}</p>
+                                                      </div>);
+      var _authorJSX = <div className="col-md-4">
+                          <div className="thumbnail">
+                            <h3 className="text-center">About the author</h3>
+                            <img className="img-circle" src={this.state.article.author.image} alt={this.state.article.author.name} />
+                            <div className="caption">
+                              {this.state.article.author.bio}
+                            </div>
                           </div>
-                        </div>
-                      </div>;
+                        </div>;
+      var _commentsJSX = <CommentList id={this.state.article.id} />;
+    }
 
     return <div>
-            <h1 className="page-header col-md-12">{this.state.article.title}</h1>
-            <div className="col-md-12">written by - <strong>{this.state.article.author.name}</strong></div>
-            <div className="col-md-12">written on - {this.state.article.writtenOn}</div>
-            <div className="col-md-8">
+              {_headingJSX}
+              <div className="col-md-8">
               {_articleJSX}
-            </div>
-            {_authorJSX}
-            <div className="col-md-8">
-              <CommentList />
-            </div>
+              {_commentsJSX}
+              </div>
+              {_authorJSX}
           </div>
   }
 }

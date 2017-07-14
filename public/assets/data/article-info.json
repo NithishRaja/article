@@ -4,15 +4,15 @@
     "title":"Motivation: The Scientific Guide on How to Get and Stay Motivated",
     "body":[
       {
-        "paraNumber":"11",
+        "paraNumber":"1",
         "content":"Motivation is a powerful, yet tricky beast. Sometimes it is really easy to get motivated, and you find yourself wrapped up in a whirlwind of excitement. Other times, it is nearly impossible to figure out how to motivate yourself and you're trapped in a death spiral of procrastination. This page contains the best ideas and most useful research on how to get and stay motivated."
       },
       {
-        "paraNumber":"12",
+        "paraNumber":"2",
         "content":"This isn't going to be some rah-rah, pumped-up motivational speech. (That's not my style.) Instead, we're going to break down the science behind how to get motivated in the first place and how to stay motivated for the long-run. Whether you're trying to figure out how to motivate yourself or how to motivate a team, this page should cover everything you need to know."
       },
       {
-        "paraNumber":"13",
+        "paraNumber":"3",
         "content":"You can click the links below to jump to a particular section or simply scroll down to read everything. At the end of this page, you'll find a complete list of all the articles I have written on motivation."
       }
     ],
@@ -22,34 +22,35 @@
       "bio":"Hi there, I'm James Clear. I'm an American author, entrepreneur, and photographer. I'm also the guy behind JamesClear.com (naturally).",
       "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbcE6_ZpU8wPPUde2kGhMIKcC0NFlfvJ_AV7rI5ajzsri53ebcJw",
       "site":"http://jamesclear.com/"
-    }
+    },
+    "comments":[]
   },
   {
     "id":2,
     "title":"5 Daily Habits of Highly Successful People",
     "body":[
       {
-        "paraNumber":"21",
+        "paraNumber":"1",
         "heading":"1. Successful people plan out their day the night before.",
         "content":"It’s easy to get off track when you don’t have a plan. Without planning what your day will look like, you wake up not knowing what you want to do or accomplish. Successful people spend a little time the night before giving themselves clear goals for the next day. Then they wake up and go down their list. Life doesn’t always work out as planned, but with a plan, you can adjust without losing momentum."
       },
       {
-        "paraNumber":"22",
+        "paraNumber":"2",
         "heading":"2. Successful people read books to get inspired.",
         "content":"Reading is an essential element in success—books contain so much knowledge. Apparently Elon Musk would read at least four hours a day growing up. Four hours. And look how successful he became. There isn’t necessarily a defined length as to how much time you should be reading, but forming a daily reading habit will expand your knowledge and help you on your journey to success."
       },
       {
-        "paraNumber":"23",
+        "paraNumber":"3",
         "heading":"3. Successful people make their health a priority.",
         "content":"What you eat and how much you exercise affects every area of your life. Successful people use their exercise as a time to reset and plan. And they make smart food choices that will give them the energy they need to accomplish everything on their daily to-do list. So, what’s for dinner? Is the gym on your to-do list? Choose wisely."
       },
       {
-        "paraNumber":"24",
+        "paraNumber":"4",
         "heading":"4. Successful people don’t get distracted by what other people are doing.",
         "content":"Other people’s journeys to success can be inspiring; you can learn so much—about their mistakes, their victories, what to do, what not to do. But if you start comparing your progress to theirs, instead of using their stories as inspiration, you can feel jealous, stressed, unworthy. Successful people realize their journey is unique and can’t be compared. So don’t get stuck in the comparison trap—stay focused on your why."
       },
       {
-        "paraNumber":"25",
+        "paraNumber":"5",
         "heading":"5. Successful people live each day as if it were the last.",
         "content":"Life is busy, it’s chaotic, and so you tend to want to focus on the future—we all do it, worry about what’s next. But while planning is important, so is living—being fully present. Life is short, and there’s no guarantee as to when it will end. Successful people live each day as if it were their last and make the most out of each moment—and so should you. When you look at a big goal, it’s common to get frustrated at the enormity of what you’re trying to accomplish. If you wake up each day determined to spend it forming good habits, you give yourself a better chance at success. So use these five habits as a starting place to build whatever a successful life means to you."
       }
@@ -60,7 +61,27 @@
       "bio":"Hi, I'm Kimanzi :) In the last six years, my books have sold over 100,000 copies. I have spoken at conferences and companies in 38 countries. You can see my articles in the largest websites in the world and I have helped thousands of people build their dream lifestyle business.",
       "image":"https://i1.wp.com/kconstable.com/wp-content/uploads/2016/09/unnamed-2-1.jpg?w=588",
       "site":"http://kconstable.com/"
-    }
+    },
+    "comments":[
+      {
+        "name":"Parul Gupta",
+        "body":"amazing Article. Too inspiring. will definitely follow these points.",
+        "date":"",
+        "isAbusive":false
+      },
+      {
+        "name":"kathleengage",
+        "body":"I'm so glad you added in #3 because this is likely the start of it all. Without one's health, not a lot we can do.",
+        "date":"",
+        "isAbusive":false
+      },
+      {
+        "name":"Helen Hayes",
+        "body":"yes, absolutely. I keep reading these types of articles but if you have a health condition that you cant do much about, your stuffed.",
+        "date":"",
+        "isAbusive":false
+      }
+    ]
   },
   {
     "id":3,
@@ -85,6 +106,14 @@
       "bio":"I've been a journalist since the early 1990s, starting my career as a metro newspaper reporter at several dailies, including the Las Vegas Review-Journal and the Fort Worth Star-Telegram. These days I primarily write for magazines and online publications about health and business, although I do enjoy straying into related areas—science, psychology and human-interest stories.",
       "image":"https://pbs.twimg.com/profile_images/672149060606926848/sK5HkkgS.jpg",
       "site":"http://charlottehuff.com/about"
-    }
+    },
+    "comments":[
+      {
+        "name":"nithish",
+        "body":"wow! imagine surviving something like that",
+        "date":"",
+        "isAbusive":false
+      }
+    ]
   }
 ]

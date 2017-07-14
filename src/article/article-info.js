@@ -7,14 +7,13 @@ export default class ArticleInfo {
   @Params callBack - function
 */
   _getArticles(id, callBack){
-
       jQuery.ajax({
         method:'GET',
         url:'./assets/data/article-info.json',
         success:(data)=>{
           if(id){
             const singleData = data.filter(d=>d.id==id);
-            callBack(singleData, null);
+            callBack(singleData[0], null);
           }else{
             callBack(data, null);
           }
