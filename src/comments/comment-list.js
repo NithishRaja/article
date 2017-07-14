@@ -1,6 +1,7 @@
 import React from 'react';
 import CommentInfo from './comment-info';
 import Comment from './comment';
+import CommentForm from './comment-form';
 
 export default class CommentList extends React.Component{
 
@@ -24,7 +25,7 @@ export default class CommentList extends React.Component{
           comments
         });
       }
-    })
+    });
   }
 
   render(){
@@ -43,6 +44,28 @@ export default class CommentList extends React.Component{
       <div className="well-comments">
         <h3>{_commentListJSX}</h3>
         {_commentsJSX}
+        <CommentForm />
       </div>);
+  }
+
+  componentDidMount(){
+
+    const timer = setInterval(()=>{
+      this.commentInfo._getComments(this.props.id,(comments, error)=>{
+        if(error){
+          alert(comments);
+          alert(error);
+        }else{
+          this.setState({
+            comments
+          });
+        }
+      });
+    }, 5000);
+  }
+
+  componentWillUnmount(){
+
+    clearInterval(timer);
   }
 }
