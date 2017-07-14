@@ -1,8 +1,18 @@
 import React from 'react';
 import ArticleInfo from './article-info';
+import CommentList from './../comments/comment-list';
 
 export default class Article extends React.Component{
 
+/*
+  constructor to create instance of ArticleInfo
+  Note:
+    this.state.article is provided with dummy values because
+    render() is called before callBack of _getArticles() in
+    componentWillMount() is completed. hence, without the dummy
+    values the this.state.articles.map function in render()
+    will error out
+*/
   constructor(){
     super();
 
@@ -28,6 +38,10 @@ export default class Article extends React.Component{
     }
   }
 
+/*
+  componentWillMount() lifecycle method is used to get article values
+  via ajax request
+*/
   componentWillMount(){
     this.articleList._getArticles(this.props.params.articleID,(singleArticle, error)=>{
       if(error){
@@ -42,6 +56,9 @@ export default class Article extends React.Component{
     });
   }
 
+/*
+  renders the article page
+*/
   render(){
     let _articleJSX = this.state.article.body.map(b=><div>
                                                       <h2 key={`heading ${b.paraNumber}`}>{b.heading}</h2>
@@ -65,6 +82,9 @@ export default class Article extends React.Component{
               {_articleJSX}
             </div>
             {_authorJSX}
+            <div className="col-md-8">
+              <CommentList />
+            </div>
           </div>
   }
 }

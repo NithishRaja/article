@@ -17,7 +17,7 @@ const _app = document.getElementById('my-app');
 ReactDOM.render(_reactJSX,_app);
 
 /*
-add more styling to Article
+add visit aauthor site
 add comments engine
 add a nav bar
 add cover image
