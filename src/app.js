@@ -20,5 +20,6 @@ ReactDOM.render(_reactJSX,_app);
 add more styling to Article
 add comments engine
 add a nav bar
+add cover image
 figure out github pages
 */

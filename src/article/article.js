@@ -58,9 +58,9 @@ export default class Article extends React.Component{
                       </div>;
 
     return <div>
-            <h1 className="page-header">{this.state.article.title}</h1>
-            <div className="col-md-4">written by - <strong>{this.state.article.author.name}</strong></div>
-            <div className="col-md-4">written on - {this.state.article.writtenOn}</div>
+            <h1 className="page-header col-md-12">{this.state.article.title}</h1>
+            <div className="col-md-12">written by - <strong>{this.state.article.author.name}</strong></div>
+            <div className="col-md-12">written on - {this.state.article.writtenOn}</div>
             <div className="col-md-8">
               {_articleJSX}
             </div>
