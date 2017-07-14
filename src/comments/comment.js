@@ -28,24 +28,25 @@ export default class Comment extends React.Component{
     let _commentBodyJSX;
 
     if(this.state.comment.isAbusive){
-      _commentBodyJSX = <div>content is marked as abusive</div>;
+      _isAbusiveJSX = <a href="" className="btn btn-warning" onClick={this._isAbusiveClicked.bind(this)}>not abusive</a>;
     }else{
-      _commentBodyJSX = <div>{this.state.comment.body}</div>;
+      _isAbusiveJSX = <a href="" className="btn btn-warning" onClick={this._isAbusiveClicked.bind(this)}>mark as abusive</a>;
     }
-    let _commentJSX = <div>
-                        <div>{this.state.comment.name}</div>
-                        {_commentBodyJSX}
-                        <div>{this.state.comment.date}</div>
-                      </div>;
+
     if(this.state.comment.isAbusive){
-      _isAbusiveJSX = <a href="" onClick={this._isAbusiveClicked.bind(this)}>not abusive</a>;
+      _commentBodyJSX = <div className="panel-body">content is marked as abusive</div>;
     }else{
-      _isAbusiveJSX = <a href="" onClick={this._isAbusiveClicked.bind(this)}>mark as abusive</a>;
+      _commentBodyJSX = <div className="panel-body"><p>{this.state.comment.body}</p></div>;
     }
+    let _commentJSX = <div className="panel panel-warning">
+                        <div className="panel-heading"><h5>{this.state.comment.name}</h5> {this.state.comment.date}</div>
+                        {_commentBodyJSX}
+                        <div className="panel-footer">{_isAbusiveJSX}</div>
+                      </div>;
 
     return(<div>
             {_commentJSX}
-            {_isAbusiveJSX}
+
           </div>);
   }
 

@@ -29,16 +29,19 @@ export default class CommentList extends React.Component{
 
   render(){
 
-    let _commentListJSX = <div>{this.state.comments.length} comments</div>;
+    let _commentNumber = this.state.comments.length>1?' comments':(this.state.comments.length==1?' comment':'no comments');
+
+    let _commentListJSX = <div className="label label-warning">
+                            <span className="badge">{this.state.comments.length!=0?this.state.comments.length:''}</span>
+                            {_commentNumber}</div>;
 
     if(this.state.comments.length!=0){
       var _commentsJSX = this.state.comments.map(comment=><Comment {...comment} />);
-    }else{
-      alert('no comments');
     }
+
     return(
-      <div>
-        {_commentListJSX}
+      <div className="well-comments">
+        <h3>{_commentListJSX}</h3>
         {_commentsJSX}
       </div>);
   }
