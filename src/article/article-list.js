@@ -38,15 +38,23 @@ export default class ArticleList extends React.Component{
 */
   render(){
 
-    let _articleListJSX = <div className="mx-auto well">
+    const _pageNavJSX = <nav className="navbar navbar-inverse navbar-fixed-top">
+                      <div className="navbar-brand">Read article</div>
+                      <ul className="nav navbar-nav">
+                        <li className="active"><a>mainpage</a></li>
+                      </ul>
+                    </nav>;
+
+    let _articleListJSX = <div className="mx-auto well-articleList">
                             {this.state.articles.map(article=>
                               <ArticlePreview
                                 {...article}
                                 key={article.id}/>
                               )}
                           </div>
-    return(
-      <div className="extra1">{_articleListJSX}</div>
-    );
+    return(<div>
+            {_pageNavJSX}
+            {_articleListJSX}
+          </div>);
   }
 }

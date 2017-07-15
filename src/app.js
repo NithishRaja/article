@@ -17,9 +17,8 @@ const _app = document.getElementById('my-app');
 ReactDOM.render(_reactJSX,_app);
 
 /*
-add visit aauthor site
-add comments engine
 add a nav bar
+add a jumbotron in mainpage
 add cover image
 figure out github pages
 */
