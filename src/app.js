@@ -2,9 +2,9 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import ArticleList from './article/article-list';
 import Article from './article/article';
-import {Router, Route, Redirect} from 'react-router';
+import {hashHistory, Router, Route, Redirect} from 'react-router';
 
-const _reactJSX = <Router>
+const _reactJSX = <Router history={hashHistory}>
                     <Redirect from="/" to="/mainpage" />
                     <Route path="/">
                       <Route path="mainpage" component={ArticleList} />
