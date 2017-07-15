@@ -6814,4 +6814,20 @@ button.close {
     display: none !important;
   }
 }
+
+/* custom styles starts here */
+
+.page-cover {
+  width:100%;
+  height:650px;
+  background-color: #000;
+}
+
+.cover-image {
+  width:100%;
+  height:600px;
+}
+
+/* custom styles ends here */
+
 /*# sourceMappingURL=bootstrap.css.map */
