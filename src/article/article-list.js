@@ -46,21 +46,12 @@ export default class ArticleList extends React.Component{
                           </ul>
                         </nav>;
 
-    const _articleNavJSX = <ul className="pager">
-                            <li className="previous disabled"><a href="">previous</a></li>
-                              <ul className="pagination">
-                                <li className="active"><a href="">1</a></li>
-                              </ul>
-                            <li className="next"><a href="">next</a></li>
-                          </ul>;
-
     let _articleListJSX = <div className="mx-auto well-articleList">
                             {this.state.articles.map(article=>
                               <ArticlePreview
                                 {...article}
                                 key={article.id}/>
                               )}
-                              {_articleNavJSX}
                           </div>;
 
     return(<div>

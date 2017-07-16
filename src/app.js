@@ -19,4 +19,5 @@ ReactDOM.render(_reactArticleJSX,_app);
 /*
 add more articles and add functionality to pagination/pager
 figure out github pages
+add props required
 */
