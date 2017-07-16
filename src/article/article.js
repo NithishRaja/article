@@ -58,6 +58,7 @@ export default class Article extends React.Component{
                                                         <h2 key={`heading ${b.paraNumber}`}>{b.heading}</h2>
                                                         <p className="text-justify" key={`para ${b.paraNumber}`}>{b.content}</p>
                                                       </div>);
+                                                      
       var _authorJSX = <div className="col-md-4">
                         <div className="panel panel-warning">
                           <div className="panel-heading">
@@ -86,7 +87,7 @@ export default class Article extends React.Component{
                                   </div>;
     }
 
-    return(<div>
+    return(<div className="container">
             {_pageNavJSX}
             {_articleContainerJSX}
           </div>);

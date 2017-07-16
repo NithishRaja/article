@@ -4,15 +4,15 @@
     "title":"Motivation: The Scientific Guide on How to Get and Stay Motivated",
     "body":[
       {
-        "paraNumber":"1",
+        "paraNumber":1,
         "content":"Motivation is a powerful, yet tricky beast. Sometimes it is really easy to get motivated, and you find yourself wrapped up in a whirlwind of excitement. Other times, it is nearly impossible to figure out how to motivate yourself and you're trapped in a death spiral of procrastination. This page contains the best ideas and most useful research on how to get and stay motivated."
       },
       {
-        "paraNumber":"2",
+        "paraNumber":2,
         "content":"This isn't going to be some rah-rah, pumped-up motivational speech. (That's not my style.) Instead, we're going to break down the science behind how to get motivated in the first place and how to stay motivated for the long-run. Whether you're trying to figure out how to motivate yourself or how to motivate a team, this page should cover everything you need to know."
       },
       {
-        "paraNumber":"3",
+        "paraNumber":3,
         "content":"You can click the links below to jump to a particular section or simply scroll down to read everything. At the end of this page, you'll find a complete list of all the articles I have written on motivation."
       }
     ],
@@ -30,27 +30,27 @@
     "title":"5 Daily Habits of Highly Successful People",
     "body":[
       {
-        "paraNumber":"1",
+        "paraNumber":1,
         "heading":"1. Successful people plan out their day the night before.",
         "content":"It’s easy to get off track when you don’t have a plan. Without planning what your day will look like, you wake up not knowing what you want to do or accomplish. Successful people spend a little time the night before giving themselves clear goals for the next day. Then they wake up and go down their list. Life doesn’t always work out as planned, but with a plan, you can adjust without losing momentum."
       },
       {
-        "paraNumber":"2",
+        "paraNumber":2,
         "heading":"2. Successful people read books to get inspired.",
         "content":"Reading is an essential element in success—books contain so much knowledge. Apparently Elon Musk would read at least four hours a day growing up. Four hours. And look how successful he became. There isn’t necessarily a defined length as to how much time you should be reading, but forming a daily reading habit will expand your knowledge and help you on your journey to success."
       },
       {
-        "paraNumber":"3",
+        "paraNumber":3,
         "heading":"3. Successful people make their health a priority.",
         "content":"What you eat and how much you exercise affects every area of your life. Successful people use their exercise as a time to reset and plan. And they make smart food choices that will give them the energy they need to accomplish everything on their daily to-do list. So, what’s for dinner? Is the gym on your to-do list? Choose wisely."
       },
       {
-        "paraNumber":"4",
+        "paraNumber":4,
         "heading":"4. Successful people don’t get distracted by what other people are doing.",
         "content":"Other people’s journeys to success can be inspiring; you can learn so much—about their mistakes, their victories, what to do, what not to do. But if you start comparing your progress to theirs, instead of using their stories as inspiration, you can feel jealous, stressed, unworthy. Successful people realize their journey is unique and can’t be compared. So don’t get stuck in the comparison trap—stay focused on your why."
       },
       {
-        "paraNumber":"5",
+        "paraNumber":5,
         "heading":"5. Successful people live each day as if it were the last.",
         "content":"Life is busy, it’s chaotic, and so you tend to want to focus on the future—we all do it, worry about what’s next. But while planning is important, so is living—being fully present. Life is short, and there’s no guarantee as to when it will end. Successful people live each day as if it were their last and make the most out of each moment—and so should you. When you look at a big goal, it’s common to get frustrated at the enormity of what you’re trying to accomplish. If you wake up each day determined to spend it forming good habits, you give yourself a better chance at success. So use these five habits as a starting place to build whatever a successful life means to you."
       }
@@ -88,15 +88,15 @@
     "title":"What it’s like to be struck by lightning",
     "body":[
       {
-        "paraNumber":"31",
+        "paraNumber":1,
         "content":"Sometimes they’ll keep the clothing, the strips of shirt or trousers that weren’t cut away and discarded by the doctors and nurses. They’ll tell and retell their story at family gatherings and online, sharing pictures and news reports of survivals like their own, or far bigger tragedies. The video of a tourist hit on a Brazilian beach, or the Texan struck dead while out running. The 65 people killed during four stormy days in Bangladesh."
       },
       {
-        "paraNumber":"32",
+        "paraNumber":2,
         "content":"Only by piecing together the bystander reports, the singed clothing and the burnt skin can survivors start to construct their own picture of the possible trajectory of the electrical current, one that can approach 200m volts and travel at one-third of the speed of light."
       },
       {
-        "paraNumber":"33",
+        "paraNumber":3,
         "content":"In this way, Jaime Santana’s family have stitched together some of what happened one afternoon in April 2016, through his injuries, burnt clothing and, most of all, his shredded broad-brimmed straw hat. “It looks like somebody threw a cannonball through it,” says Sydney Vail, a trauma surgeon in Phoenix, Arizona, who helped care for Jaime after he arrived by ambulance. His heart had been shocked several times along the way as paramedics struggled to stabilise its rhythm."
       }
     ],
@@ -115,5 +115,232 @@
         "isAbusive":false
       }
     ]
+  },
+  {
+    "id":4,
+    "title":"3 Things Successful People Never Waste Time Doing",
+    "body":[
+      {
+        "paraNumber":1,
+        "heading":"1. Productive, successful people don’t get sucked into social media.",
+        "content":"Being on social media—checking notifications Facebook, scrolling through pictures on Instagram, reading quick updates on Twitter, whatever—it’s part of everyday life. But if you don’t control how much time you spend on it, the hours will fly by and you won’t have accomplished anything on your to-do list."
+      },
+      {
+        "paraNumber":2,
+        "heading":"",
+        "content":"So either put a time limit on it—set an alarm for when you need to minimize it, close the app, do something else—or only get on after completing necessary work projects. Use social media as a reward."
+      },
+      {
+        "paraNumber":3,
+        "heading":"2. Productive, successful people don’t go through the day without a plan.",
+        "content":"Successful people have a purpose, a laser-focused plan of things they want to achieve on a particular day. I believe in writing things down—but only the top two or three priorities I need to accomplish that day, not a long list of things."
+      },
+      {
+        "paraNumber":4,
+        "heading":"",
+        "content":"Write down your top priorities and break down those large tasks into more reasonable steps and you’ll see yourself wanting to get them done and crossed off the list. "
+      },
+      {
+        "paraNumber":5,
+        "heading":"3. Productive, successful people don’t do emotionally draining activities.",
+        "content":"If you want to step into a truly successful life, you have to focus on things that positively fuel your life. Productive people don’t waste their time on things that emotionally drain them."
+      },
+      {
+        "paraNumber":6,
+        "heading":"",
+        "content":"Before committing to activities on your schedule, be sure the activity will positively add to your life. If you believe it won’t, then think about saying no to it. Also, don’t feel obligated to give an answer right at the time you’re being asked to do something. Think before you say yes and know that it’s OK to say no to requests for your time."
+      }
+    ],
+    "writtenOn":"Sat Jul 15 2017 14:31:04 GMT+0530 (India Standard Time)",
+    "author":{
+      "name":"cynthia bazin",
+      "bio":"As the president of SmartChic, Cynthia Bazin provides keynote motivational speaking and premier mentoring. Cynthia has more than 20 years of high level leadership experience and has a master’s degree in counseling psychology. Cynthia’s expertise is to get people laser-focused on their personal and professional goals, providing them with kick-butt motivation and smart strategies so they can take action to achieve their goals and dreams.",
+      "image":"http://www.success.com/sites/default/files/profiles/photos/cynthiabazin_0.png",
+      "site":"http://www.smartchic.me/"
+    },
+    "comments":[
+      {
+        "name":"Aleem Gulamhusein",
+        "body":"Great article..definitely food for thought!!",
+        "date":"Sat Jul 15 2017 14:31:04 GMT+0530 (India Standard Time)",
+        "isAbusive":false
+      },
+      {
+        "name":"Mohammad Anees",
+        "body":"for starting your successful life 1st point will be 'Successful People never Waste time!' stay focus on that sentence and check the results in just 7 days, guaranteed.",
+        "date":"Sat Jul 15 2017 14:31:04 GMT+0530 (India Standard Time)",
+        "isAbusive":false
+      },
+      {
+        "name":"need4spd",
+        "body":"Except when your best friend becomes a billionaire and your girlfriend leaves you for him. Then you kind of do have to compare. We're inherently dumb humans.",
+        "date":"Sat Jul 15 2017 14:31:04 GMT+0530 (India Standard Time)",
+        "isAbusive":false
+      }
+    ]
+  },
+  {
+    "id":5,
+    "title":"7 Books Everyone Should Read",
+    "body":[
+      {
+        "paraNumber":1,
+        "heading":"",
+        "content":"There is very little difference between someone who cannot read and someone who will not read. The result of either is ignorance. Reading is essential for those who seek to rise above the ordinary. We must not permit anything to stand between us and the book that could change our lives."
+      },
+      {
+        "paraNumber":2,
+        "heading":"",
+        "content":"You can start with these seven books and see where the journey of reading takes you, how much higher you can climb because of the growing stack of books under your feet. Read, read read—and let the books touch you, make you think, challenge your views and carry you to new horizons."
+      },
+      {
+        "paraNumber":3,
+        "heading":"1. The Bible",
+        "content":"The best-selling book of all time tells the story of sin and redemption, the story of mankind, of despair and hope. It is quite literally the story of our lives."
+      },
+      {
+        "paraNumber":4,
+        "heading":"2. Think and Grow Rich by Napoleon Hill",
+        "content":"This is arguably the best personal development and wealth building book of all time. It belongs on everyone’s bookshelf."
+      },
+      {
+        "paraNumber":5,
+        "heading":"3. How to Read a Book by Mortimer Adler",
+        "content":"This book will teach you to do just what the title promises: how to read a book for all it is worth so that you come out the best you can be at the end."
+      },
+      {
+        "paraNumber":6,
+        "heading":"4. As a Man Thinketh by James Allen",
+        "content":"This book will ground you in the belief that whatever you believe you become. It’s based on the idea that we are what we think."
+      },
+      {
+        "paraNumber":7,
+        "heading":"5. The Richest Man in Babylon by George S. Clason",
+        "content":"Written in parables, this is a classic on thrift, financial planning and personal wealth. Everyone needs to read this book."
+      },
+      {
+        "paraNumber":8,
+        "heading":"6. The Lessons of History by William James Durant",
+        "content":"This book gives insight as good as any book on the changes that have taken place over time in economics, politics, military customs and more—very insightful."
+      },
+      {
+        "paraNumber":9,
+        "heading":"7. The Story of Philosophy by William James Durant",
+        "content":"In this book, Durant summarizes the lives and influence of philosophy’s greatest thinkers. This is very important for us, as we know that our philosophy determines how we live and what we achieve."
+      }
+    ],
+    "writtenOn":"Sat Jul 15 2017 14:31:04 GMT+0530 (India Standard Time)",
+    "author":{
+      "name":"jim rohn",
+      "bio":"Jim Rohn, the man many consider to be America's Foremost Business Philosopher, shared his success philosophies and principles for over 46 years, with more than 6,000 audiences and over 5 million people worldwide. Prior to his passing in 2009, Rohn partnered with SUCCESS magazine to bring his indelible wisdom to our audience, who have long cherished the writings and teachings of this personal development legend. Today, SUCCESS continues to share Mr. Rohn's timeless principles to long-time fans and newfound followers.",
+      "image":"http://www.success.com/sites/default/files/profiles/photos/Jim%20Rohn.jpg",
+      "site":"."
+    },
+    "comments":[
+      {
+        "name":"Shahinaz Othman Ramly",
+        "body":"I a muslim don't read a bible but agree about the rest.",
+        "date":"Sat Jul 15 2017 14:31:04 GMT+0530 (India Standard Time)",
+        "isAbusive":false
+      },
+      {
+        "name":"Amit Biswas",
+        "body":"I am a Hindu and I read Bible and Quran and scriptures from all spiritual traditions. Bible or Gita our Quran are not just religious books , they are tools to develop ourselves, expand our consciousness and become finely and deeply human! Either you can takeover scriptures literally or seriouslyi take them seriously! Amen.",
+        "date":"Sat Jul 15 2017 14:31:04 GMT+0530 (India Standard Time)",
+        "isAbusive":false
+      }
+    ]
+  },
+  {
+    "id":6,
+    "title":"3 Powerful Habits of a Self-Made Millionaire",
+    "body":[
+      {
+        "paraNumber":1,
+        "content":"When I was 21, I was ready to take my life to the next level, but I felt stuck—I still lived at my parents' house, I was making $8 an hour at a side job, and I was enrolled in a never-ending MBA program. Deep down inside, I knew I had to escape. But unlike I was used to doing, I wasn't going to run away from myself."
+      },
+      {
+        "paraNumber":2,
+        "content":"This time I was determined to make a change—I wanted so bad to become successful, except I didn't know what to do or where to start. What I firmly believed, though, was that if I changed my habits, my habits would change me. So instead of fooling around with miscellaneous activities like sports and TV, I started reading books and giving speeches."
+      },
+      {
+        "paraNumber":3,
+        "content":"And I saw positive results. Professionally, I became more competent. Personally, I became more confident. This realization, that competence breeds confidence, was the pivotal point that changed my life. It enabled me to reach the summit of success, to create wealth and inspiration for so many people."
+      },
+      {
+        "paraNumber":4,
+        "content":"The habits I created are what made me who I am today—they are what took me from $8 an hour at 21 to a self-made millionaire at 24. And they can change your life, too."
+      },
+      {
+        "paraNumber":5,
+        "heading":"1. Simplify your words.",
+        "content":"How well do you spread your message? Millionaires know how to share their message in simplest terms. They use their words with precision and possess deep meaning in what they say. Personally, I peruse the dictionary every day, but I would never attempt to use every word I know. By speaking pompously, many people exterminate their opportunities. In short, never drown people in the sea of verbosity."
+      },
+      {
+        "paraNumber":6,
+        "content":"To learn to speak with ease, join your local Toastmasters club to brush up on your communication skills. Unfortunately, too many people get lazy with their communication and subtly conform to the habits of others. But millionaires diligently work on improving what they say and how they say it."
+      },
+      {
+        "paraNumber":7,
+        "heading":"2. Abandon the old.",
+        "content":"Before you are able to face the new, you must relinquish the old. If you want a new car or house, then bless the old one and search for a new one. When you want to achieve a positive mindset, you must get rid of the negative one first. To abandon your negative habits, you must replace them with positive ones."
+      },
+      {
+        "paraNumber":8,
+        "content":"I realized this one day as I was feasting on a couple cheap burgers at McDonald's. I decided to venture out to find the finest steak houses in the area to seek a new and delectable experience with my meals. Instead of indulging in $1 burgers several times a week, I was happier to splurge my money on a robust steak once or twice a month. "
+      },
+      {
+        "paraNumber":9,
+        "heading":"3. Set goals—daily.",
+        "content":"Every day, I set my goals on paper. This is an inspiring habit that I promise to keep for the rest of my life. Whether you're writing your financial projections, planning your weekly tasks or scheming new ways to build your empire, you'll want to create a daily goal-setting habit that will give you momentum—on a daily basis."
+      },
+      {
+        "paraNumber":10,
+        "content":"When you set your goals every day, it helps you prioritize and keep 'first things first'. Prioritization is first doing what matters most. Instead of pursuing $100 actions, this habit will promote you to embody $1,000 activities. Once you accumulate more profitable activities in your day, you'll add money to the bank. "
+      }
+    ],
+    "writtenOn":"Thu Jul 13 2017 22:29:43 GMT+0530 (India Standard Time)",
+    "author":{
+      "name":"daniel ally",
+      "bio":"Daniel Ally is an international business expert, three-time best-selling author and keynote speaker. As the founder of The Ally Way, he has helped business leaders grow their influence, expand their profits and fill up their notebooks as they giggle their way to financial freedom and success. Daniel became a self-made millionaire at 24 years old. Follow him on Facebook, Twitter, Instagram, LinkedIn or his website.",
+      "image":"http://www.success.com/sites/default/files/profiles/photos/daniel_ally.jpg",
+      "site":"."
+    },
+    "comments":[
+      {
+        "name":"GEORGE BOE",
+        "body":"AGAIN AN EXCELENT ARTICLE THAT I SHOULD LEARN FROM THE SUCESSFUL PEOPLE IN THE WORLD",
+        "date":"Thu Jul 13 2017 22:29:43 GMT+0530 (India Standard Time)",
+        "isAbusive":false
+      },
+      {
+        "name":"Daniel Jozic",
+        "body":"According to Dan Pena, Daniel Ally is one of those 'self-help guru´s or clowns', that made their money by getting people to come to seminars, not being a millionaire first, and then giving seminars",
+        "date":"Thu Jul 13 2017 22:29:43 GMT+0530 (India Standard Time)",
+        "isAbusive":false
+      }
+    ]
+  },
+  {
+    "id":7,
+    "title":"The Science of Sleep: A Brief Guide on How to Sleep Better Every Night",
+    "body":[
+      {
+        "paraNumber":1,
+        "content":"If you want to learn how to sleep better, then you're in the right place. This guide will walk you through everything you need to know if you want to get better sleep. I'll explain the science of sleep and how it works, discuss why many people suffer from sleep deprivation without knowing it, and offer practical tips for getting better sleep and having more energy."
+      },
+      {
+        "paraNumber":2,
+        "content":"Plain and simple, the purpose of this guide is to explain the science of how to sleep better. You can click the links below to jump to a particular section or simply scroll down to read everything. At the end of this page, you’ll find a complete list of all the articles I have written on sleep."
+      }
+    ],
+    "writtenOn":"Thu Jul 13 2017 22:29:43 GMT+0530 (India Standard Time)",
+    "author":{
+      "name":"James Clear",
+      "bio":"Hi there, I'm James Clear. I'm an American author, entrepreneur, and photographer. I'm also the guy behind JamesClear.com (naturally).",
+      "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbcE6_ZpU8wPPUde2kGhMIKcC0NFlfvJ_AV7rI5ajzsri53ebcJw",
+      "site":"http://jamesclear.com/"
+    },
+    "comments":[]
   }
 ]
