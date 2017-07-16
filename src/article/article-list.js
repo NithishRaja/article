@@ -57,7 +57,7 @@ export default class ArticleList extends React.Component{
     return(<div>
             {_pageNavJSX}
             <PageCover />
-            <div className="container">
+            <div id="mainpage" className="container">
               {_articleListJSX}
             </div>
           </div>);
