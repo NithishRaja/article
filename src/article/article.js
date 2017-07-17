@@ -54,11 +54,11 @@ export default class Article extends React.Component{
                       <div className="col-md-12">written on - {this.state.article.writtenOn}</div>
                     </header>;
 
-      var _articleJSX = this.state.article.body.map(b=><div>
+      var _articleJSX = this.state.article.body.map(b=><div key={b.paraNumber}>
                                                         <h2 key={`heading ${b.paraNumber}`}>{b.heading}</h2>
                                                         <p className="text-justify" key={`para ${b.paraNumber}`}>{b.content}</p>
                                                       </div>);
-                                                      
+
       var _authorJSX = <div className="col-md-4">
                         <div className="panel panel-warning">
                           <div className="panel-heading">
