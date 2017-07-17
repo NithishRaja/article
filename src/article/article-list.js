@@ -1,7 +1,6 @@
 import React from 'react';
 import ArticlePreview from './article-preview';
 import ArticleInfo from './article-info';
-import PageCover from './../cover/page-cover';
 
 export default class ArticleList extends React.Component{
 /*
@@ -56,7 +55,6 @@ export default class ArticleList extends React.Component{
 
     return(<div>
             {_pageNavJSX}
-            <PageCover />
             <div id="mainpage" className="container">
               {_articleListJSX}
             </div>
