@@ -18,5 +18,4 @@ ReactDOM.render(_reactArticleJSX,_app);
 
 /*
 figure out github pages
-add props required
 */
