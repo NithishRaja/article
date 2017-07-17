@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import {Link} from 'react-router';
 
 export default class ArticlePreview extends React.Component{
@@ -17,4 +18,11 @@ export default class ArticlePreview extends React.Component{
     );
   }
 
+}
+
+ArticlePreview.PropTypes = {
+  id: PropTypes.number,
+  title: PropTypes.string,
+  body: PropTypes.array,
+  author: PropTypes.object
 }

@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 
 export default class Comment extends React.Component{
 
@@ -64,4 +65,11 @@ export default class Comment extends React.Component{
       comment
     });
   }
+}
+
+Comment.PropTypes = {
+  name: PropTypes.string,
+  body: PropTypes.string,
+  date: PropTypes.string,
+  isAbusive: PropTypes.bool
 }

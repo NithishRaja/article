@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 
 export default class CommentForm extends React.Component{
 
@@ -63,4 +64,8 @@ export default class CommentForm extends React.Component{
     this.name.value = "";
     this.comment.value = "";
   }
+}
+
+CommentForm.PropTypes = {
+  callBack: PropTypes.function
 }

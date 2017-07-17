@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import CommentInfo from './comment-info';
 import Comment from './comment';
 import CommentForm from './comment-form';
@@ -32,7 +33,7 @@ export default class CommentList extends React.Component{
   render(){
     let _commentContainerJSX;
 
-    let _commentButtonText = this.state.showComments?'Hide Comments':'Show Comments';
+    let _commentButtonText = this.state.comments.length==0?(this.state.showComments?'Cancel':'Write Comment'):(this.state.showComments?'Hide Comments':'Show Comments');
 
     let _commentNumber = this.state.comments.length>1?' comments':(this.state.comments.length==1?' comment':'no comments');
 
@@ -83,4 +84,8 @@ export default class CommentList extends React.Component{
       showComments:!this.state.showComments
     });
   }
+}
+
+CommentList.PropTypes = {
+  id: PropTypes.number
 }
